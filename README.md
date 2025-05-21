@@ -29,7 +29,7 @@ second, you can download model from ![RLP_LLM_Model]{https://huggingface.co/Arre
 finally, you can run this RLP_LLM_Model by running the following scirpts.
 
 ```python
-python train_ppo/validation_model.py # you can obtain a reward model. Code logic can be viewed from the contents of Python files
+python train_ppo/validation_model.py # you can run a final-rl-model by this file
 ```
 ### 3. train PPO
 
@@ -37,8 +37,9 @@ Here we provide our inference code of  **IMAP** on BBH problems.  We provide som
 and, you can run this code to achieve the process of PPO.
 
 ```python
-python train_ppo/validation_model.py # you can obtain a reward model. Code logic can be viewed from the contents of Python files
+python train_ppo/train_reward.py # 1. you can obtain a reward model. Code logic can be viewed from the contents of Python files
+python train_ppo/train_ppo.py # 2. you can obtain a rl model. code logic can be viewed from the contents of python files.
 ```
 
-## 📖 BibTeX
+
 
